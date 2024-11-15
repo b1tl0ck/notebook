@@ -1,0 +1,15 @@
+{
+  "attachmentFolderPath": "_Attachment/Home.assets",
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false,
+  "livePreview": true,
+  "useMarkdownLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "readableLineLength": true,
+  "propertiesInDocument": "visible",
+  "autoConvertHtml": false,
+  "showRibbon": true,
+  "strictLineBreaks": true
+}

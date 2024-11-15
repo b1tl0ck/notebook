@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dotfiles/starship.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "starship"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6953b119d2a6c3f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "53657883053846fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d8363b91b5ca11f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "bcd778e05b7be81b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#web",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "3ef06b32eea28442",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "64eecaef4c710b30",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d32c251950de54d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71134fc014b18e57",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dotfiles/starship.md"
+              },
+              "icon": "lucide-list",
+              "title": "starship 的大纲"
+            }
+          },
+          {
+            "id": "190b434093db11e9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "3549e8ac19f727e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tool_config/代理/stowaway.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "stowaway 的出链列表"
+            }
+          },
+          {
+            "id": "e239401478dbfd0d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tool_config/代理/stowaway.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "stowaway 的反向链接列表"
+            }
+          },
+          {
+            "id": "54177f1d26b6d813",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "3d8363b91b5ca11f",
+  "lastOpenFiles": [
+    "Dotfiles/nushell.md",
+    "Home.md",
+    "06_Tool_config/proxy/stowaway.md",
+    "06_Tool_config/proxy/iox.md",
+    "06_Tool_config/proxy/frp.md",
+    "05_Library/Reg/reg.md",
+    "Dotfiles/windows terminal.md",
+    "Dotfiles/vscode.md",
+    "Dotfiles/starship.md",
+    "todo/reverse_shell.md",
+    "todo/misc总结.md",
+    "07_Resource/数据库-redis漏洞.md",
+    "07_Resource/应急响应/第02章：日志分析篇/第1篇：Windows日志分析.md",
+    "07_Resource/应急响应/第01章：入侵排查篇/第1篇：Windows 入侵排查.md",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Flink 任意文件读取(CVE-2020-17519 ).md",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Httpd换行解析漏洞.md",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/CVE-2021-42013_apache路径遍历.md",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Flink任意文件写入漏洞(CVE-2020-17518).md",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Cocoon XML 外部实体注入漏洞（CVE-2020-11991）.md",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Dubbo反序列化漏洞(CVE-2019-17564).md",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Dubbo恶意代码执行CVE-2020-1948.md",
+    "07_Resource/应急响应/第01章：入侵排查篇/第2篇：Linux 入侵排查.md",
+    "01_RedTeam/Web Attack/Moudle Attack/tomcat.md",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/__init__.cpython-37.pyc",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections9.cpython-37.pyc",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections7.cpython-37.pyc",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections6.cpython-37.pyc",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections8.cpython-37.pyc",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections4.cpython-37.pyc",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections5.cpython-37.pyc",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections3.cpython-37.pyc",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections2.cpython-37.pyc",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections10.cpython-37.pyc",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache shiro/Apache Shiro 权限绕过漏洞（CVE-2020-13933）/图片/6ca3b908e3c1fc388b5657f6f9355371.png",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Struts2/Struts2_045-Poc/Search_S2_045/README.md",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/pic_like_comment492329.png",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_003.png",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_005.png",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_004.png",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_002.png",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640.png",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640.jpg",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Couchedb垂直越权绕过漏洞CVE-2017-12635/Couchdb 垂直权限绕过漏洞（CVE-2017-12635）漏洞/4.png",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Couchedb垂直越权绕过漏洞CVE-2017-12635/Couchdb 垂直权限绕过漏洞（CVE-2017-12635）漏洞/3.png",
+    "07_Resource/漏洞库/漏洞库/05-系统漏洞/Windows/BlueKeep/bluekeep-CVE-2019-0708-python/README.md",
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache shiro/Apache Shiro 权限绕过漏洞（CVE-2020-13933）/Apache Shiro 权限绕过漏洞（CVE-2020-13933）.md"
+  ]
+}

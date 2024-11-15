@@ -1,0 +1,15 @@
+{
+  "accentColor": "",
+  "cssTheme": "Blue Topaz",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "dvTable测试",
+    "extended-colorschemes"
+  ],
+  "theme": "system",
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "",
+  "textFontFamily": "",
+  "nativeMenus": false
+}
