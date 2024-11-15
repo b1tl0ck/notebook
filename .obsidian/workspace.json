@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dotfiles/starship.md",
+                "file": "05_Library/Git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "starship"
+              "title": "Git"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#web",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,10 +94,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dotfiles/starship.md"
+                "file": "05_Library/Git.md"
               },
               "icon": "lucide-list",
-              "title": "starship 的大纲"
+              "title": "Git 的大纲"
             }
           },
           {
@@ -179,17 +179,27 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3d8363b91b5ca11f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Dotfiles/nushell.md",
+    "_Attachment/Git.assets/file-20241115165113135.png",
+    "_Attachment/Git.assets/file-20241115165003958.png",
+    "_Attachment/Git.assets/file-20241115164939144.png",
+    "_Attachment/Git.assets",
+    "01_RedTeam/Trick/sqlmap_tamper_note.md",
+    "_Template/new.md",
+    "_Template/book.md",
+    "_Book/启示录.pdf",
+    "_Book/投资中最简单的事.pdf",
+    "05_Library/Git.md",
+    "05_Library/Reg/reg.md",
     "Home.md",
+    "Dotfiles/starship.md",
+    "Dotfiles/nushell.md",
     "06_Tool_config/proxy/stowaway.md",
     "06_Tool_config/proxy/iox.md",
     "06_Tool_config/proxy/frp.md",
-    "05_Library/Reg/reg.md",
     "Dotfiles/windows terminal.md",
     "Dotfiles/vscode.md",
-    "Dotfiles/starship.md",
     "todo/reverse_shell.md",
     "todo/misc总结.md",
     "07_Resource/数据库-redis漏洞.md",
@@ -202,8 +212,6 @@
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Cocoon XML 外部实体注入漏洞（CVE-2020-11991）.md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Dubbo反序列化漏洞(CVE-2019-17564).md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Dubbo恶意代码执行CVE-2020-1948.md",
-    "07_Resource/应急响应/第01章：入侵排查篇/第2篇：Linux 入侵排查.md",
-    "01_RedTeam/Web Attack/Moudle Attack/tomcat.md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/__init__.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections9.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections7.cpython-37.pyc",
@@ -211,21 +219,13 @@
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections8.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections4.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections5.cpython-37.pyc",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections3.cpython-37.pyc",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections2.cpython-37.pyc",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections10.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache shiro/Apache Shiro 权限绕过漏洞（CVE-2020-13933）/图片/6ca3b908e3c1fc388b5657f6f9355371.png",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Struts2/Struts2_045-Poc/Search_S2_045/README.md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/pic_like_comment492329.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_003.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_005.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_004.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_002.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640.png",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640.jpg",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Couchedb垂直越权绕过漏洞CVE-2017-12635/Couchdb 垂直权限绕过漏洞（CVE-2017-12635）漏洞/4.png",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Couchedb垂直越权绕过漏洞CVE-2017-12635/Couchdb 垂直权限绕过漏洞（CVE-2017-12635）漏洞/3.png",
-    "07_Resource/漏洞库/漏洞库/05-系统漏洞/Windows/BlueKeep/bluekeep-CVE-2019-0708-python/README.md",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache shiro/Apache Shiro 权限绕过漏洞（CVE-2020-13933）/Apache Shiro 权限绕过漏洞（CVE-2020-13933）.md"
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640.jpg"
   ]
 }
