@@ -5,7 +5,5 @@
   "dataview",
   "templater-obsidian",
   "contribution-graph",
-  "attachment-flow-plugin",
-  "code-styler",
-  "easy-typing-obsidian"
+  "attachment-flow-plugin"
 ]

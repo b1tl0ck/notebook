@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Library/Git.md",
+                "file": "Dotfiles/vscode.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "vscode"
             }
           }
         ]
@@ -94,10 +94,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05_Library/Git.md"
+                "file": "Dotfiles/vscode.md"
               },
               "icon": "lucide-list",
-              "title": "Git 的大纲"
+              "title": "vscode 的大纲"
             }
           },
           {
@@ -179,8 +179,18 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "3d8363b91b5ca11f",
   "lastOpenFiles": [
+    "Home.md",
+    "Dotfiles/vscode.md",
+    "Dotfiles/windows terminal.md",
+    "Dotfiles/starship.md",
+    "Dotfiles/nushell.md",
+    "Dotfiles/license.md",
+    "todo/misc总结.md",
+    "todo/reverse_shell.md",
+    "todo/文件上传绕过.md",
+    "05_Library/Git.md",
     "_Attachment/Git.assets/file-20241115165113135.png",
     "_Attachment/Git.assets/file-20241115165003958.png",
     "_Attachment/Git.assets/file-20241115164939144.png",
@@ -190,18 +200,10 @@
     "_Template/book.md",
     "_Book/启示录.pdf",
     "_Book/投资中最简单的事.pdf",
-    "05_Library/Git.md",
     "05_Library/Reg/reg.md",
-    "Home.md",
-    "Dotfiles/starship.md",
-    "Dotfiles/nushell.md",
     "06_Tool_config/proxy/stowaway.md",
     "06_Tool_config/proxy/iox.md",
     "06_Tool_config/proxy/frp.md",
-    "Dotfiles/windows terminal.md",
-    "Dotfiles/vscode.md",
-    "todo/reverse_shell.md",
-    "todo/misc总结.md",
     "07_Resource/数据库-redis漏洞.md",
     "07_Resource/应急响应/第02章：日志分析篇/第1篇：Windows日志分析.md",
     "07_Resource/应急响应/第01章：入侵排查篇/第1篇：Windows 入侵排查.md",
@@ -211,7 +213,6 @@
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Flink任意文件写入漏洞(CVE-2020-17518).md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Cocoon XML 外部实体注入漏洞（CVE-2020-11991）.md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Dubbo反序列化漏洞(CVE-2019-17564).md",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Dubbo恶意代码执行CVE-2020-1948.md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/__init__.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections9.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections7.cpython-37.pyc",
@@ -225,7 +226,6 @@
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_005.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_004.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_002.png",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640.png",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640.jpg"
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640.png"
   ]
 }

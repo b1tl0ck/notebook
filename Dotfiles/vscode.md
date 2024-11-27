@@ -11,7 +11,6 @@ status: complete
 - error lens：在当前行显示报错信息
 - better comment：注释增加颜色
 - python：运行python
-- github light theme
 - Comment Translate
 
 # setting.json
@@ -20,10 +19,13 @@ status: complete
 {
     // theme
     "window.autoDetectColorScheme": true,
-    "workbench.preferredLightColorTheme": "Quiet Light",
-    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "editor.fontFamily": "CaskaydiaCove Nerd Font, FiraCode Nerd Font, Consolas, monospace",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.fontFamily": "FiraCode Nerd Font, 'Courier New', monospace",
+    // 安全设置
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.enabled": false,
+    // 单击新开标签页
+    "workbench.editor.enablePreview": false,
     // file auto save
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
@@ -36,9 +38,11 @@ status: complete
     "editor.stickyScroll.enabled": false,
     "editor.mouseWheelZoom": true,
     "workbench.tree.indent": 24,
+    // cursor style
     "editor.cursorBlinking": "smooth",
     // title
-    "window.title": "${activeEditorShort}${separator}",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+    "window.commandCenter": false,
     // activity bar
     "workbench.activityBar.location": "default",
     // scroll bar
@@ -103,6 +107,12 @@ status: complete
         "errorLens.infoForeground": "#00b7e4", // 对应 NOTE
         "errorLens.hintForeground": "#2faf64", // 对应 HINT
     },
+    // Comment Translate
+    "commentTranslate.sourceLanguage": "auto",
+    "commentTranslate.targetLanguage": "zh-CN",
+    "commentTranslate.hover.content": false,
+    "commentTranslate.multiLineMerge": true,
+    "commentTranslate.hover.nearShow": false,
     // Code Runner
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.executorMap": {
@@ -110,27 +120,16 @@ status: complete
         "python": "python -u",
         "go": "go run",
     },
-    // Comment Translate
-    "commentTranslate.sourceLanguage": "auto",
-    "commentTranslate.targetLanguage": "zh-CN",
-    "commentTranslate.hover.content": false,
-    "commentTranslate.multiLineMerge": true,
-    "commentTranslate.hover.nearShow": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.terminalRoot": "",
+
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "php.debug.executablePath": "D:\\CodeEnv\\php-8.3.9",
-    "window.commandCenter": false,
-    "security.workspace.trust.untrustedFiles": "open",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
-    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\wt.exe",
-    "code-runner.runInTerminal": true,
-    "code-runner.terminalRoot": ""
 }
 ```
 

@@ -9,13 +9,13 @@ status: complete
 
 ### 安装scoop
 
-步骤 1：在 PowerShell 中打开远程权限
+在 PowerShell 中打开远程权限
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser;
 ```
 
-步骤 2：自定义 Scoop 安装目录
+自定义 Scoop 安装目录
 
 ```powershell
 $env:SCOOP='Your_Scoop_Path'
@@ -23,7 +23,7 @@ $env:SCOOP='Your_Scoop_Path'
 ```
 
 如果跳过该步骤， Scoop 将默认把所有用户安装的 App 和 Scoop 本身置于C:\Users\user_name\scoop
-步骤 3：下载并安装 Scoop
+下载并安装 Scoop
 
 ```powershell
 iwr -useb get.scoop.sh | iex
@@ -40,43 +40,7 @@ scoop update
 
 ### 添加scoop库
 
-- Scoop使用本地socks5代理  
-    以管理员权限打开powershell，编辑配置文件：
-
-```powershell
-notepad $PROFILE
-```
-
-在配置文件中增加以下内容：
-
-```powershell
-function proxyscoop {scoop config proxy 127.0.0.1:10809}
-function unproxyscoop {scoop config rm proxy}
-```
-
-注意把10809改成自己本地sock5代理的端口
-
-也可以顺便为git等添加代理命令的别名：
-
-```powershell
-# 配置系统代理
-function proxy {
-    $env:HTTP_PROXY="http://127.0.0.1:10809"
-    $env:HTTPS_PROXY="http://127.0.0.1:10809"
-}
-function unproxy {
-    $env:HTTP_PROXY=""
-    $env:HTTPS_PROXY=""
-}
-
-# 配置git代理
-function unproxygit {git config --global --unset http.proxy && git config --global --unset https.proxy}
-function proxygit {git config --global http.proxy socks5://127.0.0.1:10808 && git config --global https.proxy socks5://127.0.0.1:10808}
-```
-
-之后就可以使用proxyscoop命令启用Scoop代理，unproxyscoop命令取消Scoop代理。
-
-- 查看官方推荐仓库
+官方推荐仓库
 
 ```powershell
 $ scoop bucket known
@@ -93,7 +57,7 @@ games
 jetbrains
 ```
 
-- 分别下载git、extras、nerd-fonts等
+分别下载git、extras、nerd-fonts等
 
 ```powershell
 # 安装git
@@ -109,6 +73,10 @@ scoop install FiraCode-NF
 scoop install gow
 # 调用管理员权限（win11 24H2已自带）
 scoop install sudo
+# 常用字体
+monaco
+FiraCode Nerd Font
+CaskaydiaCove Nerd Font
 ```
 
 ### Scoop 的管理与配置
@@ -128,21 +96,8 @@ scoop search <APPname>
 scoop uninstall scoop
 ```
 
-### 安装一些常用编程字体
 
-```powershell
-scoop install JetBrainsMono-NF
-scoop install DejaVuSansMono-NF
-scoop install CodeNewRoman-NF
-scoop install SourceCodePro-NF
-scoop install SarasaGothic-SC # 安装更纱黑体（简体中文）
-scoop install Wenquanyi-Microhei # 安装文泉驿微米黑
-scoop install Wenquanyi-Zenhei # 安装文泉驿正黑
-
-monaco、caskaydia
-```
-
-## 整合Scoop
+### 整合Scoop
 
 打开Windows terminal，输入以下命令：
 
@@ -150,6 +105,8 @@ monaco、caskaydia
 Import-Module "$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\modules\scoop-completion"
 Import-Module "$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\modules\scoop-completion" -ErrorAction SilentlyContinue
 ```
+
+
 
 ## starship
 
@@ -181,16 +138,17 @@ $ENV:STARSHIP_CONFIG = "C:\Users\zion\.config\starship.toml"
 
 starship.toml见[starship](starship.md)
 
-## windows terminal
 
-### PSReadLine
+## powershell
+
+PROFILE
+
 ```powershell
+# 加载starship
 Invoke-Expression (&starship init powershell)
 # $ENV:STARSHIP_CONFIG = "C:\Users\zion\.config\starship.toml"
 
 Import-Module PSReadLine
-
-# Import-Module Terminal-Icons
 
 # 设置预测文本来源为历史记录
 Set-PSReadLineOption -PredictionSource History
@@ -206,38 +164,74 @@ Set-PSReadLineKeyHandler -Key "Tab" -Function MenuComplete
 
 # 根据历史补全词(一次只补全部分)
 Set-PSReadLineKeyHandler -Key "Ctrl+RightArrow" -Function ForwardWord
-
+ 
 # 设置上下键为搜索历史记录
 Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+# 配置系统代理
+function proxy {
+    $env:HTTP_PROXY="http://127.0.0.1:10809"
+    $env:HTTPS_PROXY="http://127.0.0.1:10809"
+}
+function unproxy {
+    $env:HTTP_PROXY=""
+    $env:HTTPS_PROXY=""
+}
+
+# 定义别名和目录常量
+const ToolsDir = "E:\\T00ls"
+const ScriptDir = "E:\\Code\\SecScripts"
+
+# web工具
+Function dirsearch {& "D:\\CodeEnv\\Python\\Python311\\python.exe" "E:\\T00ls\\Scan\\dirsearch-master\\dirsearch.py" @args}
+Function dirsearch403 {& "D:\\CodeEnv\\Python\\Python311\\python.exe" "E:\\T00ls\\Scan\\dirsearch_bypass403\\dirsearch.py" @args}
+Function githack {& "D:\\CodeEnv\\Python\\Python311\\python.exe" "E:\\T00ls\\源码泄露\\GitHack-master\\GitHack.py" @args}
+function sqlmap {& "D:\\CodeEnv\\Python\\Python311\\python.exe" "E:\\T00ls\\WebExp\\数据库综合\\sqlmap\\sqlmap.py" @args}
 ```
-### setting.json
+
+
+
+```powershell
+# scoop代理设置
+function proxy_scoop {scoop config proxy 127.0.0.1:10809}
+function unproxy_scoop {scoop config rm proxy}
+
+# 配置git代理
+function unproxygit {git config --global --unset http.proxy && git config --global --unset https.proxy}
+function proxygit {git config --global http.proxy socks5://127.0.0.1:10808 && git config --global https.proxy socks5://127.0.0.1:10808}
+```
+
+
+
+
+## windows terminal
+
+配色方案
+
 ```json
-
-"face": "Fria Code Nerd Font"
-
-        {
-            "background": "#282828",
-            "black": "#282828",
-            "blue": "#458588",
-            "brightBlack": "#928374",
-            "brightBlue": "#83A598",
-            "brightCyan": "#8EC07C",
-            "brightGreen": "#B8BB26",
-            "brightPurple": "#D3869B",
-            "brightRed": "#FB4934",
-            "brightWhite": "#EBDBB2",
-            "brightYellow": "#FABD2F",
-            "cursorColor": "#EBDBB2",
-            "cyan": "#689D6A",
-            "foreground": "#EBDBB2",
-            "green": "#98971A",
-            "name": "GruvboxDark",
-            "purple": "#B16286",
-            "red": "#CC241D",
-            "selectionBackground": "#665C54",
-            "white": "#A89984",
-            "yellow": "#D79921"
-        }
+{
+	"background": "#282828",
+	"black": "#282828",
+	"blue": "#458588",
+	"brightBlack": "#928374",
+	"brightBlue": "#83A598",
+	"brightCyan": "#8EC07C",
+	"brightGreen": "#B8BB26",
+	"brightPurple": "#D3869B",
+	"brightRed": "#FB4934",
+	"brightWhite": "#EBDBB2",
+	"brightYellow": "#FABD2F",
+	"cursorColor": "#EBDBB2",
+	"cyan": "#689D6A",
+	"foreground": "#EBDBB2",
+	"green": "#98971A",
+	"name": "GruvboxDark",
+	"purple": "#B16286",
+	"red": "#CC241D",
+	"selectionBackground": "#665C54",
+	"white": "#A89984",
+	"yellow": "#D79921"
+}
 ```
 
