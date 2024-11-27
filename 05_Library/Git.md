@@ -16,6 +16,8 @@ git config --global user.email ""
 git config --global init.defaultbranch main
 # 存储配置
 git config --global credential.helper ""
+# 忽略换行符
+git config --global core.autocrlf true
 ```
 
 ## 创建仓库
