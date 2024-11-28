@@ -16,6 +16,13 @@ git config --global user.email ""
 git config --global init.defaultbranch main
 # 存储配置
 git config --global credential.helper ""
+# 忽略换行符
+git config --global core.autocrlf true    Git会在你提交时自动把行结束符CRLF转换成LF，适合windows
+git  config --global core.autocrlf input  Git会在提交时把CRLF转换成LF，适合linux
+
+git config --global core.safecrlf true 这个命令表示拒绝提交包含混合换行符的文件
+git config --global core.safecrlf  false 允许提交包含混合换行符的文件
+git config --global core.safecrlf  warn  提交包含混合换行符的文件时给出警告
 ```
 
 ## 创建仓库
