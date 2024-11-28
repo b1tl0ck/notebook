@@ -103,5 +103,6 @@
   "blue-topaz-theme@@titlebar-close-button": "default-titlebar",
   "blue-topaz-theme@@hide-titlebar-close-btn": false,
   "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-bt-default",
-  "blue-topaz-theme@@remove-arrow": false
+  "blue-topaz-theme@@remove-arrow": false,
+  "blue-topaz-theme@@disable-auto-hide-header": true
 }

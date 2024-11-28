@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dotfiles/vscode.md",
+                "file": "05_Library/Git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vscode"
+              "title": "Git"
             }
           }
         ]
@@ -94,10 +94,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dotfiles/vscode.md"
+                "file": "05_Library/Git.md"
               },
               "icon": "lucide-list",
-              "title": "vscode 的大纲"
+              "title": "Git 的大纲"
             }
           },
           {
@@ -179,18 +179,19 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3d8363b91b5ca11f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "04_CTF/Traffic Analyse/tshrak.md",
+    "05_Library/Git.md",
+    "Dotfiles/starship.md",
     "Home.md",
     "Dotfiles/vscode.md",
     "Dotfiles/windows terminal.md",
-    "Dotfiles/starship.md",
     "Dotfiles/nushell.md",
     "Dotfiles/license.md",
     "todo/misc总结.md",
     "todo/reverse_shell.md",
     "todo/文件上传绕过.md",
-    "05_Library/Git.md",
     "_Attachment/Git.assets/file-20241115165113135.png",
     "_Attachment/Git.assets/file-20241115165003958.png",
     "_Attachment/Git.assets/file-20241115164939144.png",
@@ -212,7 +213,6 @@
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/CVE-2021-42013_apache路径遍历.md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Flink任意文件写入漏洞(CVE-2020-17518).md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Cocoon XML 外部实体注入漏洞（CVE-2020-11991）.md",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Dubbo反序列化漏洞(CVE-2019-17564).md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/__init__.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections9.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections7.cpython-37.pyc",
