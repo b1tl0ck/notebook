@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "5e0158f98e9cb3f0",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "35dfd52b1f2d00fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,13 +179,16 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "3d8363b91b5ca11f",
   "lastOpenFiles": [
+    "06_Tool_config/terminal_proxy.md",
+    "Home.md",
+    "_Attachment/terminal_proxy.assets/file-20241129093556430.png",
+    "_Attachment/terminal_proxy.assets",
     "Dotfiles/starship.md",
     "05_Library/Git.md",
     "04_CTF/Traffic Analyse/wireshark.md",
     "04_CTF/Traffic Analyse/tshrak.md",
-    "Home.md",
     "Dotfiles/vscode.md",
     "Dotfiles/windows terminal.md",
     "Dotfiles/nushell.md",
@@ -211,21 +214,17 @@
     "07_Resource/应急响应/第01章：入侵排查篇/第1篇：Windows 入侵排查.md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Flink 任意文件读取(CVE-2020-17519 ).md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Httpd换行解析漏洞.md",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/CVE-2021-42013_apache路径遍历.md",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Flink任意文件写入漏洞(CVE-2020-17518).md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/__init__.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections9.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections7.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections6.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections8.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections4.cpython-37.pyc",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections5.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache shiro/Apache Shiro 权限绕过漏洞（CVE-2020-13933）/图片/6ca3b908e3c1fc388b5657f6f9355371.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/pic_like_comment492329.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_003.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_005.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_004.png",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_002.png",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640.png"
+    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_002.png"
   ]
 }
