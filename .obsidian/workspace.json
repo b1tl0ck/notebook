@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5e0158f98e9cb3f0",
+        "id": "1e58807238be3e64",
         "type": "tabs",
         "children": [
           {
-            "id": "35dfd52b1f2d00fb",
+            "id": "5ece07fd0994910c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "Dotfiles/windows terminal.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "windows terminal"
             }
           }
         ]
@@ -41,7 +41,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -94,10 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Dotfiles/windows terminal.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "windows terminal 的大纲"
             }
           },
           {
@@ -168,31 +172,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
-      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "3d8363b91b5ca11f",
+  "active": "5ece07fd0994910c",
   "lastOpenFiles": [
-    "06_Tool_config/terminal_proxy.md",
+    "Dotfiles/vscode.md",
+    "Dotfiles/starship.md",
+    "Dotfiles/license.md",
+    "Dotfiles/nushell.md",
     "Home.md",
+    "01_RedTeam/常用内网命令.md",
+    "01_RedTeam/Web Attack/Database Attack/redis.md",
+    "04_CTF/Traffic Analyse/wireshark.md",
+    "04_CTF/Traffic Analyse/~$reshark.docx",
+    "04_CTF/Traffic Analyse/wireshark.docx",
+    "04_CTF/Traffic Analyse/tshrak.md",
+    "07_Resource/应急响应/第02章：日志分析篇/第1篇：Windows日志分析.md",
+    "05_Library/Reg/reg.md",
+    "05_Library/Git.md",
+    "03_SRC/信息收集.md",
+    "03_SRC/批量存储桶泄露+上传.md",
+    "06_Tool_config/Infoscan/arl灯塔.md",
+    "07_Resource/应急响应/第01章：入侵排查篇/第1篇：Windows 入侵排查.md",
+    "06_Tool_config/terminal_proxy.md",
     "_Attachment/terminal_proxy.assets/file-20241129093556430.png",
     "_Attachment/terminal_proxy.assets",
-    "Dotfiles/starship.md",
-    "05_Library/Git.md",
-    "04_CTF/Traffic Analyse/wireshark.md",
-    "04_CTF/Traffic Analyse/tshrak.md",
-    "Dotfiles/vscode.md",
     "Dotfiles/windows terminal.md",
-    "Dotfiles/nushell.md",
-    "Dotfiles/license.md",
     "todo/misc总结.md",
     "todo/reverse_shell.md",
     "todo/文件上传绕过.md",
@@ -205,21 +220,12 @@
     "_Template/book.md",
     "_Book/启示录.pdf",
     "_Book/投资中最简单的事.pdf",
-    "05_Library/Reg/reg.md",
     "06_Tool_config/proxy/stowaway.md",
     "06_Tool_config/proxy/iox.md",
-    "06_Tool_config/proxy/frp.md",
-    "07_Resource/数据库-redis漏洞.md",
-    "07_Resource/应急响应/第02章：日志分析篇/第1篇：Windows日志分析.md",
-    "07_Resource/应急响应/第01章：入侵排查篇/第1篇：Windows 入侵排查.md",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Flink 任意文件读取(CVE-2020-17519 ).md",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache Httpd换行解析漏洞.md",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/__init__.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections9.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections7.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections6.cpython-37.pyc",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections8.cpython-37.pyc",
-    "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/ShiroScan-master/moule/plugins/__pycache__/CommonsCollections4.cpython-37.pyc",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Apache/Apache shiro/Apache Shiro 权限绕过漏洞（CVE-2020-13933）/图片/6ca3b908e3c1fc388b5657f6f9355371.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/pic_like_comment492329.png",
     "07_Resource/漏洞库/漏洞库/06-中间件框架漏洞/Shiro/Shiro RememberMe 1.2.4 反序列化命令执行漏洞/【漏洞复现】Shiro RememberMe 1.2.4 反序列化命令执行漏洞_files/640_003.png",

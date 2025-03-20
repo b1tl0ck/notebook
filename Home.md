@@ -1,6 +1,6 @@
 ## 足迹
 ```contributionGraph
-title: "2024"
+title: "2025"
 graphType: default
 dateRangeValue: 1
 dateRangeType: LATEST_YEAR

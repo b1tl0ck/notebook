@@ -1,6 +1,6 @@
 {
   "accentColor": "",
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "Minimal",
   "baseFontSize": 16,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
@@ -11,5 +11,6 @@
   "interfaceFontFamily": "",
   "monospaceFontFamily": "",
   "textFontFamily": "",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "showRibbon": true
 }
